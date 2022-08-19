@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1D970628B0296D008671F4 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC1D970528B0296D008671F4 /* Pacifico-Regular.ttf */; };
+		CC1D970828B02AE4008671F4 /* yaziT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC1D970728B02AE4008671F4 /* yaziT.ttf */; };
 		CCA1289C28AF826E00479D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1289B28AF826E00479D8D /* AppDelegate.swift */; };
 		CCA1289E28AF826E00479D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1289D28AF826E00479D8D /* SceneDelegate.swift */; };
 		CCA128A028AF826E00479D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1289F28AF826E00479D8D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1D970528B0296D008671F4 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		CC1D970728B02AE4008671F4 /* yaziT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = yaziT.ttf; path = ../../../../Righteous/yaziT.ttf; sourceTree = "<group>"; };
 		CCA1289828AF826E00479D8D /* odev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA1289B28AF826E00479D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA1289D28AF826E00479D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CCA128A428AF827100479D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA128A728AF827100479D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA128A928AF827100479D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA128B428B020E000479D8D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		CCA128B528B020E000479D8D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,18 @@
 				CCA128A428AF827100479D8D /* Assets.xcassets */,
 				CCA128A628AF827100479D8D /* LaunchScreen.storyboard */,
 				CCA128A928AF827100479D8D /* Info.plist */,
+				CCA128AF28B00D5F00479D8D /* Fonts */,
 			);
 			path = odev3;
+			sourceTree = "<group>";
+		};
+		CCA128AF28B00D5F00479D8D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D970728B02AE4008671F4 /* yaziT.ttf */,
+				CC1D970528B0296D008671F4 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +125,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = CCA1288F28AF826D00479D8D;
 			productRefGroup = CCA1289928AF826E00479D8D /* Products */;
@@ -126,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA128A828AF827100479D8D /* LaunchScreen.storyboard in Resources */,
+				CC1D970628B0296D008671F4 /* Pacifico-Regular.ttf in Resources */,
 				CCA128A528AF827100479D8D /* Assets.xcassets in Resources */,
+				CC1D970828B02AE4008671F4 /* yaziT.ttf in Resources */,
 				CCA128A328AF826E00479D8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +170,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCA128A228AF826E00479D8D /* Base */,
+				CCA128B428B020E000479D8D /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +179,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCA128A728AF827100479D8D /* Base */,
+				CCA128B528B020E000479D8D /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +191,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

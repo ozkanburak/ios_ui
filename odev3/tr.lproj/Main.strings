@@ -1,0 +1,55 @@
+
+/* Class = "UILabel"; text = " Protein"; ObjectID = "7oC-yh-Bro"; */
+"7oC-yh-Bro.text" = " Protein";
+
+/* Class = "UILabel"; text = "Fat"; ObjectID = "8xS-Y0-MbB"; */
+"8xS-Y0-MbB.text" = "Yağ";
+
+/* Class = "UILabel"; text = "Fat"; ObjectID = "9yL-Ld-NCP"; */
+"9yL-Ld-NCP.text" = "Yağ";
+
+/* Class = "UILabel"; text = "250"; ObjectID = "Ccb-0C-wt0"; */
+"Ccb-0C-wt0.text" = "250";
+
+/* Class = "UILabel"; text = "Classic Vegetarian"; ObjectID = "DYW-XD-PTr"; */
+"DYW-XD-PTr.text" = "Klasik Vejeteryan";
+
+/* Class = "UILabel"; text = "Boiled Vegatables"; ObjectID = "EfH-We-d26"; */
+"EfH-We-d26.text" = "Haşlanmış Sebzeler";
+
+/* Class = "UILabel"; text = "A balanced Classic Vagetarian plan isone that give your the nutrients it needs to funtion properly Enjoy the benefits of diet and don't forget to keep physically active."; ObjectID = "I5C-Kh-Hnh"; */
+"I5C-Kh-Hnh.text" = "Dengeli bir Klasik Vajina planı, düzgün çalışması için ihtiyaç duyduğu besinleri sağlayan bir plandır. Diyetin faydalarından yararlanın ve fiziksel olarak aktif olmayı unutmayın.";
+
+/* Class = "UILabel"; text = "250"; ObjectID = "Rvx-RM-db4"; */
+"Rvx-RM-db4.text" = "250";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "UmK-eY-m0r"; */
+"UmK-eY-m0r.text" = "20";
+
+/* Class = "UILabel"; text = " Protein"; ObjectID = "VeI-aJ-d48"; */
+"VeI-aJ-d48.text" = " Protein";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "VwW-RS-a7V"; */
+"VwW-RS-a7V.text" = "20";
+
+/* Class = "UILabel"; text = "Vagetarian diets"; ObjectID = "cNN-z2-hj5"; */
+"cNN-z2-hj5.text" = "Vejetaryen diyetler";
+
+/* Class = "UILabel"; text = "Carbs"; ObjectID = "fyI-Ii-zLe"; */
+"fyI-Ii-zLe.text" = "Karbonhidrat";
+
+/* Class = "UILabel"; text = "450"; ObjectID = "jKq-kv-Do4"; */
+"jKq-kv-Do4.text" = "450";
+
+/* Class = "UILabel"; text = "Boiled Vegatables"; ObjectID = "jaT-hE-KpV"; */
+"jaT-hE-KpV.text" = "Haşlanmış sebzeler";
+
+/* Class = "UILabel"; text = "Carbs"; ObjectID = "m4x-XQ-a0s"; */
+"m4x-XQ-a0s.text" = "Karbonhidrat";
+
+/* Class = "UIButton"; configuration.title = "Choose this Plan"; ObjectID = "nWB-HB-tYy"; */
+"nWB-HB-tYy.configuration.title" = "Bir Planı seçin";
+
+
+/* Class = "UILabel"; text = "450"; ObjectID = "rdl-Q0-309"; */
+"rdl-Q0-309.text" = "450";
